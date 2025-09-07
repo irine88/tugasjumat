@@ -75,3 +75,15 @@ footer{
     padding: 20px;
     text-align: center;
 }
+
+table{
+    width: 50%;
+    margin: 0 auto;
+    background-color: #ffffcc;
+}
+
+.contact{
+    width: 50%;
+    margin: 0 auto;
+    /* background-color: #ffffcc; */
+}

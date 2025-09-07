@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+}
+
+header{
+    background: #0099e6;
+}
+
+.satu{
+    overflow: hidden;
+    padding: 10px;
+}
+
+.satu img{
+    float: left;
+}
+
+.menu{
+    float: right;
+}
+
+.menu ul li {
+    display: inline-block;
+    
+    margin-top: 15px;
+    margin-right: 12px;
+}
+
+.menu ul li a{
+    font-family: 'Courier New';
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+.dua img{
+    height: auto;
+    display: block;
+    width: 100%;
+}
+
+.tiga {
+    font-size: 0;
+    height: auto;
+    display: block;
+    width: 100%;
+       
+}
+
+.tiga img {
+    width: 25%;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tiga img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+.empat {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    padding: 15px;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
